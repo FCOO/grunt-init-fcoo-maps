@@ -1,0 +1,4 @@
+{
+  "src/NAME.js": "src/fcoo-maps-{%= name %}.js",
+  "src/NAME.scss": "src/fcoo-maps-{%= name %}.scss"
+}
