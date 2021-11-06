@@ -41,7 +41,7 @@
     };
 
 
-    MapLayer_{%= map_layer_id %}.prototype = $.extend({}, nsMap.MapLayer.prototype, {    //OR nsMap.MapLayer_ANOTHER.prototype, {
+    $.extend( MapLayer_{%= map_layer_id %}.prototype, {
 
         //Extend METHOD
         METHOD: function (METHOD) {
