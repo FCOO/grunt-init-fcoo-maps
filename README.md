@@ -16,9 +16,9 @@ It's recommended that you use git to clone this template into that directory, as
 git clone https://github.com/fcoo/grunt-init-fcoo-maps.git ~/.grunt-init/grunt-init-fcoo-maps
 ```
 
-On windows use
+On Windows (PowerShell) use
 ```
-git clone https://github.com/fcoo/grunt-init-fcoo-maps.git "%USERPROFILE%/.grunt-init/grunt-init-fcoo-maps"
+git clone https://github.com/fcoo/grunt-init-fcoo-maps.git "$env:USERPROFILE/.grunt-init/grunt-init-fcoo-maps"
 ```
 or see [the documentation][grunt-init] for the correct destination directory path
 
